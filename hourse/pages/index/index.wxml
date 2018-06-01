@@ -1,0 +1,22 @@
+
+<view class='conts'>
+  <image class='header' src='../../images/index/index.jpg'></image>
+  <view class='mzs_conts'>
+    <view class='singe_conts' bindtap='mai_house'>
+      <image src='../../images/index/mai_house.jpg'></image>
+      <text>买房</text>
+    </view>
+        <view class='singe_conts'  bindtap='zu_house'>
+      <image src='../../images/index/zu_house.jpg'></image>
+      <text>租房</text>
+    </view>
+        <view class='singe_conts'  bindtap='pinGu_house'>
+      <image src='../../images/index/pinGu_house.jpg'></image>
+      <text>评估</text>
+    </view>
+  </view>
+    <image class='footer' src='../../images/index/footer1.jpg'></image>
+
+  
+</view>
+<view class='search_house' bindtap='search_house'></view>
