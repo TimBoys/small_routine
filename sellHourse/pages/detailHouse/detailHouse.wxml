@@ -57,8 +57,8 @@
 <view class='modal_conts' >
   <view class='modal_x' bindtap='disableModal'>x</view>
   <view class='modalCenter'wx:for="{{lianxi_msg}}" wx:key="index">
-    <image src='../../images/detail/person.png'></image>
-    <view class='modalC_text'>
+    <image src='../../images/detail/person.png' bindtap='navToPersion'></image>
+    <view class='modalC_text' bindtap='navToPersion'>
       <text>{{item.person}}</text>
       <text>本房源带看次数：{{item.dkcNum}}次</text>
     </view>

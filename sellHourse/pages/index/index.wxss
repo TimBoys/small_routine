@@ -1,4 +1,6 @@
 /**index.wxss**/
+/* @import "/wxParse/wxParse.wxss"; */
+
 page{
   height: 100%;
 }
@@ -45,3 +47,21 @@ page{
   height: 30vw;
 
 }
+
+/*播放暂停  */
+.bo_zan{
+  width: 100rpx;
+  height: 100rpx;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  transform: rotate(0deg);
+}
+.bo_zan>image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  animation: divRun 4s infinite linear;
+  
+}
+/*播放暂停  */

@@ -87,6 +87,10 @@ Page({
 
     //先进行一次最近的数据刷新
   },
+
+  onShow:function(){
+
+  },
   //选择区域
   listqy: function (e) {
     console.log(this.data.qyopen)

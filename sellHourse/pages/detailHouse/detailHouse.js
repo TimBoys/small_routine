@@ -283,5 +283,14 @@ Page({
     wx.makePhoneCall({
       phoneNumber: e.currentTarget.dataset.phone
     })
+  },
+  navToPersion:function(e){
+    wx.navigateToMiniProgram({
+      appId: 'wx1503c073bfb77e83',
+      // envVersion:'develop'
+      envVersion:'trial'
+    })
+
+
   }
 })
